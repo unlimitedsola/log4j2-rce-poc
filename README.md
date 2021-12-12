@@ -1,7 +1,7 @@
 # Log4j2 RCE Vulnerability POC
 
 A bare minimum proof-of-concept for Log4j2 JNDI Remote-Code-Execution vulnerability (CVE-2021-44228). This is intended
-for education purpose to help people who are not security researchers to understand how it works and how large the
+for educational purposes to help people who are not security researchers to understand how it works and how large the
 impact is.
 
 ## Prerequisites
