@@ -1,14 +1,14 @@
 # Log4j2 RCE Vulnerability POC
 
 A bare minimum proof-of-concept for Log4j2 JNDI Remote-Code-Execution vulnerability (CVE-2021-44228). This is intended
-for education purpose to help people who are not security researchers to understand how it works and how large the impact is.
+for education purpose to help people who are not security researchers to understand how it works and how large the
+impact is.
 
 ## Prerequisites
 
 - JDK 1.8
 
-Note: JDK 1.8 is required for `payload-server` to compile, but the `victim-app` is vulnerable up to JDK 14 (they removed
-the Nashorn engine JDK 15).
+Note: JDK 1.8 is required for `payload-server` to compile, but the `victim-app` is vulnerable up until JDK 15 because the Nashorn engine was removed in JDK 15.
 
 ## To Test
 
